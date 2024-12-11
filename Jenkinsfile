@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Clone mã nguồn từ GitHub
                 git branch: 'main', // Thay 'main' bằng nhánh bạn muốn clone
-                    url: 'https://github.com/handuy/jenkins-github.git' // URL repo GitHub
+                    url: 'https://github.com/ducluong16/Test_KTLHPM.git' // URL repo GitHub
             }
         }
     }
